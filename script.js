@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
-const ul = document.getElementById("plist");
+const ul = document.getElementById("band");
 bands.sort((str1, str2) => {
     let word1, word2;
     let sa1 = str1.split(" ");
